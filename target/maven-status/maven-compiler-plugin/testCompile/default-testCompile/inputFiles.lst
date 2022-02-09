@@ -3,6 +3,7 @@ D:\CucumberSelenium\src\test\java\com\vytrack\step_definitions\LoginAsUsertypeDe
 D:\CucumberSelenium\src\test\java\com\vytrack\pages\DashboardPage.java
 D:\CucumberSelenium\src\test\java\com\vytrack\pages\BasePage.java
 D:\CucumberSelenium\src\test\java\com\vytrack\pages\CalendarEventsPage.java
+D:\CucumberSelenium\src\test\java\com\vytrack\runners\FailedTestRunner.java
 D:\CucumberSelenium\src\test\java\com\vytrack\utilities\BrowserUtils.java
 D:\CucumberSelenium\src\test\java\com\vytrack\utilities\ConfigurationsReader.java
 D:\CucumberSelenium\src\test\java\com\vytrack\pages\ContactInfoPage.java
