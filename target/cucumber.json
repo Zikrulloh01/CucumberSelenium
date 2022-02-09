@@ -1,0 +1,337 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-09T12:08:29.079Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5229860700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login with Different Accounts",
+        "description": "",
+        "id": "login-as-usertype;login-with-different-accounts;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1116949000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1437743600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3658132600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters the \"driver\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3554054900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigates to \"Activities\" \"Calendar Events\" on top of menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userNavigatesToOnTopOfMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13283700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The title should contain \"Calendar Events - Activities\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Calendar Events - Activities\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.theTitleShouldContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T12:08:44.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2818289800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Login with Different Accounts",
+        "description": "",
+        "id": "login-as-usertype;login-with-different-accounts;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1391201500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1055631100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3762406800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters the \"sales manager\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5324658400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigates to \"Customers\" \"Accounts\" on top of menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userNavigatesToOnTopOfMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6814200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The title should contain \"Accounts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accounts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.theTitleShouldContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T12:08:58.575Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2352157500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Login with Different Accounts",
+        "description": "",
+        "id": "login-as-usertype;login-with-different-accounts;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1165835600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1086345900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3629130500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters the \"store manager\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4852573000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigates to \"Customers\" \"Contacts\" on top of menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userNavigatesToOnTopOfMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12201700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The title should contain \"Contacts - Customers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contacts - Customers\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.theTitleShouldContain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login as Usertype",
+    "description": "",
+    "id": "login-as-usertype",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginAsDDt.feature",
+    "tags": []
+  }
+]
