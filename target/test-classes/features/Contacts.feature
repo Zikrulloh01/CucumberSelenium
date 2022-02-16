@@ -1,3 +1,4 @@
+@smoke
 Feature: Contacts page
 
   Scenario: Navigate to pages
@@ -13,7 +14,7 @@ Feature: Contacts page
     Given The user is on the login page
     When User enters the sales manager information
     And User navigates to "Activities" "Calendar Events" on top of menu
-    Then User verifies tht title contains "Calendars"
+    Then User verifies tht title contains "Calendar"
 
 
 

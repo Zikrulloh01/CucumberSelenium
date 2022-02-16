@@ -1,13 +1,13 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-02-09T15:22:19.199Z",
+        "start_timestamp": "2022-02-16T15:26:24.478Z",
         "before": [
           {
             "result": {
-              "duration": 4136435200,
+              "duration": 8835288700,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 27,
-        "name": "Login with Different Accounts",
+        "line": 4,
+        "name": "Navigate to pages",
         "description": "",
-        "id": "login-as-usertype;login-with-different-accounts;;2",
+        "id": "contacts-page;navigate-to-pages",
         "after": [
           {
             "result": {
-              "duration": 1315486900,
+              "duration": 1327323900,
               "status": "passed"
             },
             "match": {
@@ -31,14 +31,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1397268800,
+              "duration": 16596062000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 5,
             "name": "The user is on the login page",
             "match": {
               "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
@@ -47,244 +47,22 @@
           },
           {
             "result": {
-              "duration": 7754422900,
+              "duration": 12785178900,
               "status": "passed"
             },
-            "line": 21,
-            "name": "User enters the \"driver\" information",
+            "line": 6,
+            "name": "User enters the driver information",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"driver\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_the_driver_information()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5322565800,
+              "duration": 6946346600,
               "status": "passed"
             },
-            "line": 22,
-            "name": "User navigates to \"Activities\" \"Calendar Events\" on top of menu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Activities\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"Calendar Events\"",
-                  "offset": 31
-                }
-              ],
-              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userNavigatesToOnTopOfMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 40354800,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "The title should contain \"Calendar Events - Activities\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Calendar Events - Activities\"",
-                  "offset": 25
-                }
-              ],
-              "location": "com.vytrack.step_definitions.LoginStepDefinitions.theTitleShouldContain(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-09T15:22:39.293Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2408620100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 28,
-        "name": "Login with Different Accounts",
-        "description": "",
-        "id": "login-as-usertype;login-with-different-accounts;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1005324200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1133927800,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "The user is on the login page",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3813445300,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters the \"sales manager\" information",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"sales manager\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4964999200,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "User navigates to \"Customers\" \"Accounts\" on top of menu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Customers\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"Accounts\"",
-                  "offset": 30
-                }
-              ],
-              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userNavigatesToOnTopOfMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5917600,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "The title should contain \"Accounts - Customers\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Accounts - Customers\"",
-                  "offset": 25
-                }
-              ],
-              "location": "com.vytrack.step_definitions.LoginStepDefinitions.theTitleShouldContain(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-09T15:22:52.637Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2247046700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 29,
-        "name": "Login with Different Accounts",
-        "description": "",
-        "id": "login-as-usertype;login-with-different-accounts;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 1006197400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1192891800,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "The user is on the login page",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3992132300,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters the \"store manager\" information",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"store manager\"",
-                  "offset": 16
-                }
-              ],
-              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5047612100,
-              "status": "passed"
-            },
-            "line": 22,
+            "line": 7,
             "name": "User navigates to \"Customers\" \"Contacts\" on top of menu",
             "match": {
               "arguments": [
@@ -303,35 +81,820 @@
           },
           {
             "result": {
-              "duration": 5219700,
+              "duration": 113772800,
               "status": "passed"
             },
-            "line": 23,
-            "name": "The title should contain \"Contacts - Customers\"",
+            "line": 8,
+            "name": "the default page number should be 1",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Contacts - Customers\"",
-                  "offset": 25
+                  "val": "1",
+                  "offset": 34
                 }
               ],
-              "location": "com.vytrack.step_definitions.LoginStepDefinitions.theTitleShouldContain(java.lang.String)"
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.theDefaultPageNumberShouldBe(int)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-16T15:27:11.106Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2498513200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify Create Calendar Event",
+        "description": "",
+        "id": "contacts-page;verify-create-calendar-event",
+        "after": [
+          {
+            "result": {
+              "duration": 1051058300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1326716300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3865858300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the sales manager information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_the_sales_manager_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5980601800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigates to \"Activities\" \"Calendar Events\" on top of menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userNavigatesToOnTopOfMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11321200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User verifies tht title contains \"Calendar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Calendar\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userVerifiesThtTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-16T15:27:25.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2040008500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Menu Options Driver",
+        "description": "",
+        "id": "contacts-page;menu-options-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 1039843000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1167520900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4170088600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters the \"driver\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262417000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should see following options",
+            "match": {
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fleet"
+                ]
+              },
+              {
+                "cells": [
+                  "Customers"
+                ]
+              },
+              {
+                "cells": [
+                  "Activities"
+                ]
+              },
+              {
+                "cells": [
+                  "System"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-16T15:27:34.542Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2064353800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Menu Options Driver",
+        "description": "",
+        "id": "contacts-page;menu-options-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 982688200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1254100500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4971975800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enters the \"sales manager\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.vytrack.step_definitions.LoginAsUsertypeDefs.user_enters_the_information(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 397765700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user should see following options",
+            "match": {
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Dashboards"
+                ]
+              },
+              {
+                "cells": [
+                  "Fleet"
+                ]
+              },
+              {
+                "cells": [
+                  "Customers"
+                ]
+              },
+              {
+                "cells": [
+                  "Sales"
+                ]
+              },
+              {
+                "cells": [
+                  "Activities"
+                ]
+              },
+              {
+                "cells": [
+                  "Marketing"
+                ]
+              },
+              {
+                "cells": [
+                  "Reports \u0026 Segments"
+                ]
+              },
+              {
+                "cells": [
+                  "System"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-16T15:27:44.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2066593300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "login as a given user",
+        "description": "",
+        "id": "contacts-page;login-as-a-given-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1041703500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3521911300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3427876400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User logs in using following credentials",
+            "match": {
+              "location": "com.vytrack.step_definitions.navigateStepDefinitions.userLogsInUsingFollowingCredentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user10"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "John"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Doe"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13076600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "The user should be logged in",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "Login as Usertype",
+    "name": "Contacts page",
     "description": "",
-    "id": "login-as-usertype",
+    "id": "contacts-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/LoginAsDDt.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-16T15:26:24.479Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8944886800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login as a driver",
+        "description": "",
+        "id": "user-should-be-able-to-login;login-as-a-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 1158124900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15799141200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14288252600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the driver information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.user_enters_the_driver_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22997600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should be logged in",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@driver"
+          },
+          {
+            "name": "@VYT-123"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to login",
+    "description": "",
+    "id": "user-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-16T15:26:24.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8975884700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as a driver with wrong username",
+        "description": "",
+        "id": "user-should-see-error-message-when-entered-wrong-credentials;login-as-a-driver-with-wrong-username",
+        "after": [
+          {
+            "result": {
+              "duration": 2318448100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14880860000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters wrong username and correct password",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginErrorDefinitions.userEntersWrongUsernameAndRightPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see an error Message",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginErrorDefinitions.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wrongUsername"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-16T15:26:50.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7224728700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login as a driver with wrong password",
+        "description": "",
+        "id": "user-should-see-error-message-when-entered-wrong-credentials;login-as-a-driver-with-wrong-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2641119800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2397318600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 841400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters correct username and wrong password",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginErrorDefinitions.userEntersCorrectUsernameAndWrongPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1020400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see an error Message",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginErrorDefinitions.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wrongPassword"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-16T15:27:02.998Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4858517200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login as a driver with wrong username and wrong password",
+        "description": "",
+        "id": "user-should-see-error-message-when-entered-wrong-credentials;login-as-a-driver-with-wrong-username-and-wrong-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1130376500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1389007600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters wrong username and wrong password",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginErrorDefinitions.userEntersWrongUsernameAndWrongPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should see an error Message",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginErrorDefinitions.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@invalidUsernameAndPassword"
+          }
+        ]
+      }
+    ],
+    "name": "User should see error message when entered wrong credentials",
+    "description": "",
+    "id": "user-should-see-error-message-when-entered-wrong-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/negativeLogin.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

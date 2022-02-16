@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.vytrack.runners.CukesRunner
+Test set: Contacts page
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.285 s - in com.vytrack.runners.CukesRunner
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 90.177 s - in Contacts page

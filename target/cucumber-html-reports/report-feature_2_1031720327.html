@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Tag: @wip</title>
+<title>Cucumber Reports (no 1) - Feature: User should see error message when entered wrong credentials</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>09 Feb 2022, 15:23</td>
+      <td>16 Feb 2022, 15:27</td>
     </tr>
   </tbody>
 </table>
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Tag Report</h2>
+    <h2>Feature Report</h2>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Tag</th>
+    <th>Feature</th>
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -128,19 +128,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">@wip</td>
-          <td      class="passed"    >12</td>
+          <td class="tagname">User should see error message when entered wrong credentials</td>
+          <td      class="passed"    >9</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">12</td>
+          <td class="total">9</td>
 
           <td  class="passed"    >3</td>
           <td >0</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="34670758100">34.670</td>
+          <td class="duration" data-value="18669048000">18.669</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -167,30 +167,43 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="elements">
+      <div class="feature">
 
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_4089311534.html">@smoke</a>
+</div>
+
+
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">User should see error message when entered wrong credentials</span>
+
+
+</div>
+
+        <div class="description indention"></div>
+
+        <div class="elements inner-level">
 
 <div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_1825425396.html">Login as Usertype</a>
-    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_1706739042.html">@wrongUsername</a>
 </div>
 
 
-  <span class="lead-duration duration">14.514</span>
+  <span class="lead-duration duration">14.880</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login with Different Accounts</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Login as a driver with wrong username</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -221,7 +234,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">4.136</span>
+  <span class="lead-duration duration">8.975</span>
 
           </div>
 
@@ -258,7 +271,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">The user is on the login page</span>
 
-  <span class="lead-duration duration">1.397</span>
+  <span class="lead-duration duration">14.880</span>
 
 </div>
 
@@ -283,36 +296,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">User enters the <span class="argument">&quot;driver&quot;</span> information</span>
+  <span class="name">User enters wrong username and correct password</span>
 
-  <span class="lead-duration duration">7.754</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User navigates to <span class="argument">&quot;Activities&quot;</span> <span class="argument">&quot;Calendar Events&quot;</span> on top of menu</span>
-
-  <span class="lead-duration duration">5.322</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -337,9 +323,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">The title should contain <span class="argument">&quot;Calendar Events - Activities&quot;</span></span>
+  <span class="name">User should see an error Message</span>
 
-  <span class="lead-duration duration">0.040</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -384,7 +370,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.315</span>
+  <span class="lead-duration duration">2.318</span>
 
           </div>
 
@@ -403,26 +389,23 @@ $(document).ready(function() {
 
 
 <div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_1825425396.html">Login as Usertype</a>
-    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_3189438247.html">@wrongPassword</a>
 </div>
 
 
-  <span class="lead-duration duration">9.918</span>
+  <span class="lead-duration duration">2.399</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login with Different Accounts</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Login as a driver with wrong password</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -453,7 +436,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">2.408</span>
+  <span class="lead-duration duration">7.224</span>
 
           </div>
 
@@ -490,7 +473,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">The user is on the login page</span>
 
-  <span class="lead-duration duration">1.133</span>
+  <span class="lead-duration duration">2.397</span>
 
 </div>
 
@@ -515,36 +498,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">User enters the <span class="argument">&quot;sales manager&quot;</span> information</span>
+  <span class="name">User enters correct username and wrong password</span>
 
-  <span class="lead-duration duration">3.813</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User navigates to <span class="argument">&quot;Customers&quot;</span> <span class="argument">&quot;Accounts&quot;</span> on top of menu</span>
-
-  <span class="lead-duration duration">4.964</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -569,9 +525,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">The title should contain <span class="argument">&quot;Accounts - Customers&quot;</span></span>
+  <span class="name">User should see an error Message</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -616,7 +572,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.005</span>
+  <span class="lead-duration duration">2.641</span>
 
           </div>
 
@@ -635,26 +591,23 @@ $(document).ready(function() {
 
 
 <div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_1825425396.html">Login as Usertype</a>
-    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_2970577828.html">@invalidUsernameAndPassword</a>
 </div>
 
 
-  <span class="lead-duration duration">10.237</span>
+  <span class="lead-duration duration">1.389</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login with Different Accounts</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Login as a driver with wrong username and wrong password</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -685,7 +638,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">2.247</span>
+  <span class="lead-duration duration">4.858</span>
 
           </div>
 
@@ -722,7 +675,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">The user is on the login page</span>
 
-  <span class="lead-duration duration">1.192</span>
+  <span class="lead-duration duration">1.389</span>
 
 </div>
 
@@ -747,36 +700,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">User enters the <span class="argument">&quot;store manager&quot;</span> information</span>
+  <span class="name">User enters wrong username and wrong password</span>
 
-  <span class="lead-duration duration">3.992</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">User navigates to <span class="argument">&quot;Customers&quot;</span> <span class="argument">&quot;Contacts&quot;</span> on top of menu</span>
-
-  <span class="lead-duration duration">5.047</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -801,9 +727,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">The title should contain <span class="argument">&quot;Contacts - Customers&quot;</span></span>
+  <span class="name">User should see an error Message</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -848,7 +774,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.006</span>
+  <span class="lead-duration duration">1.130</span>
 
           </div>
 
@@ -865,6 +791,7 @@ $(document).ready(function() {
   </div>
 </div>
 
+        </div>
 
       </div>
     </div>

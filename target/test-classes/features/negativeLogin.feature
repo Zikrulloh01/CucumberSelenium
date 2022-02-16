@@ -1,4 +1,4 @@
-@negative_login
+@smoke
 Feature: User should see error message when entered wrong credentials
 
   @wrongUsername
