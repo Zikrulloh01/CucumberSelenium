@@ -2,7 +2,7 @@
 Feature: User should be able to login
 
 
-  @driver @VYT-123
+  @driver @VYT-123 @wip
   Scenario: Login as a driver
     Given The user is on the login page
     When User enters the driver information
