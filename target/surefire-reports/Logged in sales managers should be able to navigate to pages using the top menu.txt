@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Logged in sales managers should be able to navigate to pages using the top menu
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.056 s - in Logged in sales managers should be able to navigate to pages using the top menu

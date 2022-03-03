@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Contacts page
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 90.177 s - in Contacts page
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.362 s - in Contacts page

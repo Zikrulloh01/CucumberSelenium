@@ -1,0 +1,5 @@
+file:src/test/resources/features/NavigationMenu.feature:5:13:21
+file:src/test/resources/features/Contacts.feature:13:21:35:50
+file:src/test/resources/features/LoginWithParameters.feature:4
+file:src/test/resources/features/login.feature:7
+file:src/test/resources/features/negativeLogin.feature:5:11:18

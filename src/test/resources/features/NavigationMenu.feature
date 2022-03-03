@@ -1,4 +1,4 @@
-@navigate
+@navigate @smoke
 Feature: Logged in sales managers should be able to navigate to pages using the top menu
 
   @vehicle
